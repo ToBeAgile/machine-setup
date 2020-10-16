@@ -1,5 +1,5 @@
 # This script
-# iwr -useb https://raw.githubusercontent.com/JayBazuzi/machine-setup/main/visual-studio.ps1 | iex
+# iwr -useb https://raw.githubusercontent.com/ToBeAgile/machine-setup/main/visual-studio.ps1 | iex
 
 #Requires -RunAsAdministrator
 
