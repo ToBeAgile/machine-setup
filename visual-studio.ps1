@@ -3,6 +3,9 @@
 
 #Requires -RunAsAdministrator
 
+# Set up base Windows machine
+iwr -useb https://raw.githubusercontent.com/ToBeAgile/machine-setup/main/windows.ps1 | iex
+
 iwr -useb cin.st | iex
 choco feature enable --name=allowGlobalConfirmation
 cinst visualstudio2019professional visualstudio2019-workload-manageddesktop netfx-4.8-devpack
